@@ -17,9 +17,8 @@ def create_mock_profile():
 
     credit_card_db = [
         "dynamic bank",
-        "iron bank",
-        "credit all",
-        "gringotts",
+        "bankyo",
+        "modyo bank",
         "justice bank",
     ]
     deposit_db = [
@@ -31,13 +30,10 @@ def create_mock_profile():
         "mark",
         "natalia",
         "emma",
-        "evan",
-        "william",
-        "karen",
-        "kyle",
-        "john",
-        "percy",
-        "lisa",
+        "mattias",
+        "alex",
+        "jordana",
+        "paulina",
     ]
     vendor_db = [
         "netflix",
@@ -106,4 +102,3 @@ def create_mock_profile():
         "vendor_list": vendor_db,
     }
     return mock_profile
-
