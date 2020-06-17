@@ -16,6 +16,7 @@ def create_mock_profile():
     transaction_history = {"spend": {}, "deposit": {}}
 
     credit_card_db = [
+        "dynamic bank",
         "iron bank",
         "credit all",
         "gringotts",
@@ -26,6 +27,9 @@ def create_mock_profile():
         "interest",
     ]
     recipient_db = [
+        "juanma",
+        "mark",
+        "natalia",
         "emma",
         "evan",
         "william",
@@ -36,6 +40,8 @@ def create_mock_profile():
         "lisa",
     ]
     vendor_db = [
+        "netflix",
+        "spotify",
         "target",
         "starbucks",
         "amazon",
@@ -100,3 +106,4 @@ def create_mock_profile():
         "vendor_list": vendor_db,
     }
     return mock_profile
+
