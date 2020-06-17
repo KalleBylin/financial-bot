@@ -564,4 +564,5 @@ class ActionRestart(Action):
         domain: Dict[Text, Any],
     ) -> List[EventType]:
 
-        return [Restarted(),FollowupAction("action_session_start")]
+        return [Restarted(), FollowupAction("action_session_start")]
+       
