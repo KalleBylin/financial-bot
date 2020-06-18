@@ -136,6 +136,14 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringotts](credit_card) credit card today
 - today
+- [dynamic bank](credit_card)
+- [modyo bank](credit_card)
+- towards my [dynamic bank](credit_card) card
+- my [dynamic bank](credit_card) card
+- [netflix](vendor_name)
+- [spotify](vendor_name)
+- at [netflix](vendor_name)
+- at [spotify](vendor_name)
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
@@ -163,6 +171,10 @@
 - I want to pay $500 on my [gringotts](credit_card) credit card on Sunday
 - I want to pay my [current balance](payment_amount) on my [gringotts](credit_card) credit card today
 - i need to pay off my [gringots](credit_card) credit card
+- I want to pay my [current balance](payment_amount) on my [dynamic bank](credit_card) credit card today
+- I want to pay my [dynamic bank](credit_card) bill
+- I want to pay my [modyo bank](credit_card) bill
+- need to pay off my credit card
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
@@ -206,6 +218,8 @@
 - transfer money
 - I want to transfer $100 to John
 - i want to transfer $400 to Akela
+- I want to pay Juanma
+- I want to transfer $120 to Mark
 
 ## intent:check_recipients
 - Who can I send money to?
@@ -244,6 +258,10 @@
 - What is my [gringotts](credit_card) balance?
 - whats my [gringots](credit_card) card balance?
 - what's my [gringot](credit_card)'s card balance?
+- what's my [dynamic bank](credit_card)'s card balance
+- what's my [modyo bank](credit_card)'s balance
+- what's the balance on the [dynamic bank](credit_card) account?
+- what's the balance on the [modyo bank](credit_card) account?
 
 ## synonym:gringotts
 - gringots
